@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="870aa1f6c33a1210173c9e377d013190" label="Media" max_length="40" name="x_1558286_raas_media" type="collection">
+        <element label="Production" max_length="200" name="production" type="string"/>
+        <element default="0" label="IMDB Rating" max_length="40" name="imdb_rating" type="float"/>
+        <element label="Category" max_length="40" name="category" type="string"/>
+        <element default="0" label="Average Rating" max_length="255" name="average_rating" type="float"/>
+        <element default="0&#13;&#10;" label="Metascore" max_length="40" name="metascore" type="integer"/>
+        <element label="Writers" max_length="4000" name="writers" type="string"/>
+        <element label="Poster" max_length="1000" name="poster" type="url"/>
+        <element label="Country" max_length="250" name="country" type="string"/>
+        <element label="Synopsis" max_length="4000" name="synopsis" type="string"/>
+        <element choice="3" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Movie" sequence="1" value="m"/>
+                <element inactive_on_update="false" label="Series" sequence="2" value="s"/>
+                <element inactive_on_update="false" label="Episode" sequence="0" value="e"/>
+            </choice>
+        </element>
+        <element label="Release Date" max_length="255" name="release_date" type="glide_date"/>
+        <element display="true" label="Title" max_length="250" name="title" type="string"/>
+        <element label="Language" max_length="250" name="language" type="string"/>
+        <element label="Awards" max_length="1000" name="awards" type="string"/>
+        <element label="Website" max_length="40" name="website" type="url"/>
+        <element label="Genre" max_length="1024" name="genre" reference="x_1558286_raas_genre" type="glide_list"/>
+    </element>
+</database>

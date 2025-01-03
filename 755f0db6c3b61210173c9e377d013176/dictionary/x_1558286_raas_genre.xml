@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="41871d32c3f61210173c9e377d01311c" label="Genre" max_length="40" name="x_1558286_raas_genre" type="collection">
+        <element display="true" label="Name" mandatory="true" max_length="250" name="name" type="string"/>
+    </element>
+</database>

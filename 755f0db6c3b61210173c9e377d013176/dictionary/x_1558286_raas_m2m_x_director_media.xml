@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ecdfb632c3fe1210173c9e377d013135" label="x_1558286_raas_m2m_Directors_Medias" max_length="40" name="x_1558286_raas_m2m_x_director_media" type="collection">
+        <element attributes="encode_utf8=false" label="Medias" max_length="32" name="x_1558286_raas_media" reference="x_1558286_raas_media" type="reference"/>
+        <element attributes="encode_utf8=false" label="Directors" max_length="32" name="x_1558286_raas_director" reference="x_1558286_raas_director" type="reference"/>
+        <index name="index">
+            <element name="x_1558286_raas_director"/>
+        </index>
+        <index name="index2">
+            <element name="x_1558286_raas_media"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="a715f536c37a1210173c9e377d0131ac" sys_domain="global" table="x_1558286_raas_media" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-03 15:06:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7715f536c37a1210173c9e377d0131b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1558286_raas_media" name="x_1558286_raas_media" sys_domain="global" view="Default view">a715f536c37a1210173c9e377d0131ac</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1558286_raas_media" sys_domain="global" view="Default view">ef0a2db2c33a1210173c9e377d0131df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-03 15:06:30</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-03 15:15:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0647fdb6c37a1210173c9e377d013131</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1558286_raas_media" name="x_1558286_raas_media" sys_domain="global" view="Default view">a715f536c37a1210173c9e377d0131ac</sys_ui_form>
+            <sys_ui_section caption="Ratings" display_value="Ratings" name="x_1558286_raas_media" sys_domain="global" view="Default view">bd47fdb6c37a1210173c9e377d01312e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-03 15:21:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-03 15:20:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f358f5bac37a1210173c9e377d013170</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1558286_raas_media" name="x_1558286_raas_media" sys_domain="global" view="Default view">a715f536c37a1210173c9e377d0131ac</sys_ui_form>
+            <sys_ui_section caption="Location" display_value="Location" name="x_1558286_raas_media" sys_domain="global" view="Default view">7358f5bac37a1210173c9e377d01316c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-03 15:21:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1558286_raas_media</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-03 15:06:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a715f536c37a1210173c9e377d0131ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1558286_raas_media</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Raas" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Raas">755f0db6c3b61210173c9e377d013176</sys_scope>
+            <sys_update_name>sys_ui_form_sections_a715f536c37a1210173c9e377d0131ac</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-03 15:06:29</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

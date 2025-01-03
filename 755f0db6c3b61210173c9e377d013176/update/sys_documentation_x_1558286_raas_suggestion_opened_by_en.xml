@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="opened_by" label="Creator" language="en" table="x_1558286_raas_suggestion">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <help/>
+            <hint/>
+            <label>Creator</label>
+            <language>en</language>
+            <name>x_1558286_raas_suggestion</name>
+            <plural>Creators</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-03 19:05:56</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Creator</sys_name>
+            <sys_package display_value="Raas" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Raas">755f0db6c3b61210173c9e377d013176</sys_scope>
+            <sys_update_name>sys_documentation_x_1558286_raas_suggestion_opened_by_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-03 19:08:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Rating">e4d386b3c37e1210173c9e377d0131cd</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-06 18:59:16</sys_created_on>
+        <sys_id>5127067bc37e1210173c9e377d0131ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Raas - Izaque" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</sys_scope>
+        <sys_update_name>question_choice_5127067bc37e1210173c9e377d0131ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-06 18:59:16</sys_updated_on>
+        <text>1</text>
+        <value>1</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=5127067bc37e1210173c9e377d0131ef"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>5127067bc37e1210173c9e377d0131ef</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-06 18:59:16</sys_created_on>
+        <sys_id>3e2782bbc37e1210173c9e377d013153</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-06 18:59:16</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>5127067bc37e1210173c9e377d0131ef</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-06 18:59:16</sys_created_on>
+        <sys_id>f22782bbc37e1210173c9e377d013153</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-06 18:59:16</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</application>
+        <file_path/>
+        <instance_id>2d826edcdb5eb91837d72a5913961950</instance_id>
+        <instance_name>dev199124</instance_name>
+        <name>question_choice_5127067bc37e1210173c9e377d0131ef</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>100</order><published_ref/><question display_value="Rating">e4d386b3c37e1210173c9e377d0131cd</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-06 18:59:16</sys_created_on><sys_id>5127067bc37e1210173c9e377d0131ef</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Raas - Izaque" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package><sys_policy/><sys_scope display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</sys_scope><sys_update_name>question_choice_5127067bc37e1210173c9e377d0131ef</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-06 18:59:16</sys_updated_on><text>1</text><value>1</value></question_choice><fx_price action="delete_multiple" query="id=5127067bc37e1210173c9e377d0131ef"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>5127067bc37e1210173c9e377d0131ef</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-06 18:59:16</sys_created_on><sys_id>3e2782bbc37e1210173c9e377d013153</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-06 18:59:16</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>5127067bc37e1210173c9e377d0131ef</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-06 18:59:16</sys_created_on><sys_id>f22782bbc37e1210173c9e377d013153</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-06 18:59:16</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>1978496202</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>b2cf8f72c3325210173c9e377d013140</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-06 18:59:16</sys_created_on>
+        <sys_id>362782bbc37e1210173c9e377d013156</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1943cfc526b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-06 18:59:16</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>3a2782bbc77e1210aab7251cf8d5c155</update_guid>
+        <update_guid_history>3a2782bbc77e1210aab7251cf8d5c155:1978496202</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">87116e7bc3fe1210173c9e377d013156</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-06 20:52:37</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>1e098403a05b4094bc8a3ce9618d43e4</sys_id>
+        <sys_metadata>5127067bc37e1210173c9e377d0131ef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Raas - Izaque" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package>
+        <sys_parent display_value="Rating">e4d386b3c37e1210173c9e377d0131cd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</sys_scope>
+        <sys_scope_delete display_value="">02c89d5cb92b445f801971616ee48e29</sys_scope_delete>
+        <sys_update_name>question_choice_5127067bc37e1210173c9e377d0131ef</sys_update_name>
+        <sys_update_version display_value="question_choice_5127067bc37e1210173c9e377d0131ef">362782bbc37e1210173c9e377d013156</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-06 20:52:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

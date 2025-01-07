@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Media Review">48f67d77c33e1210173c9e377d01318f</catalog_item>
+        <catalog_variable>IO:ce1d468cc3039210173c9e377d0131d2</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 16:37:28</sys_created_on>
+        <sys_id>f840ba08c3c39210173c9e377d013147</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>poster</sys_name>
+        <sys_package display_value="Raas - Izaque" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_f840ba08c3c39210173c9e377d013147</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 16:37:28</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show media data when media is selected">01578ac4c3039210173c9e377d013153</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>poster</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=f840ba08c3c39210173c9e377d013147"/>
+</record_update>

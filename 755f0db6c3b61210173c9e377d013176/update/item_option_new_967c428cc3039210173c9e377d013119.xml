@@ -18,7 +18,7 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <dynamic_value_dot_walk_path>average_rating</dynamic_value_dot_walk_path>
+        <dynamic_value_dot_walk_path>poster</dynamic_value_dot_walk_path>
         <dynamic_value_field display_value="Movie/TV Show/Episode">449c793fc33e1210173c9e377d0131b2</dynamic_value_field>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
@@ -26,11 +26,11 @@
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <hidden>false</hidden>
+        <hidden>true</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
-        <list_table>x_1558286_raas_review</list_table>
+        <list_table/>
         <lookup_label/>
         <lookup_price/>
         <lookup_table/>
@@ -41,15 +41,15 @@
         <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
-        <mask_use_encryption>true</mask_use_encryption>
-        <name>average_rating</name>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>poster_url</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>170</order>
+        <order>180</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Average Rating</question_text>
+        <question_text>Poster URL</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -77,16 +77,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-06 20:50:48</sys_created_on>
-        <sys_id>a6602a3bc3fe1210173c9e377d01312e</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Average Rating</sys_name>
+        <sys_created_on>2025-01-07 14:02:21</sys_created_on>
+        <sys_id>967c428cc3039210173c9e377d013119</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Poster URL</sys_name>
         <sys_package display_value="Raas - Izaque" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package>
         <sys_policy/>
         <sys_scope display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</sys_scope>
-        <sys_update_name>item_option_new_a6602a3bc3fe1210173c9e377d01312e</sys_update_name>
+        <sys_update_name>item_option_new_967c428cc3039210173c9e377d013119</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-07 13:30:36</sys_updated_on>
+        <sys_updated_on>2025-01-07 14:14:31</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
@@ -94,7 +94,7 @@
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>advanced</use_reference_qualifier>
+        <use_reference_qualifier>simple</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
         <variable_set/>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=a6602a3bc3fe1210173c9e377d01312e"/>
-    <fx_price action="delete_multiple" query="id=a6602a3bc3fe1210173c9e377d01312e"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=967c428cc3039210173c9e377d013119"/>
+    <fx_price action="delete_multiple" query="id=967c428cc3039210173c9e377d013119"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>price_if_checked</field>
-        <id>a6602a3bc3fe1210173c9e377d01312e</id>
+        <id>967c428cc3039210173c9e377d013119</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-06 20:50:48</sys_created_on>
-        <sys_id>54b0267bc3fe1210173c9e377d013162</sys_id>
+        <sys_created_on>2025-01-07 14:02:22</sys_created_on>
+        <sys_id>97ccc68cc3039210173c9e377d0131b9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-06 20:50:48</sys_updated_on>
+        <sys_updated_on>2025-01-07 14:02:22</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,16 +129,16 @@
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>rec_price_if_checked</field>
-        <id>a6602a3bc3fe1210173c9e377d01312e</id>
+        <id>967c428cc3039210173c9e377d013119</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-06 20:50:48</sys_created_on>
-        <sys_id>1cb0267bc3fe1210173c9e377d013160</sys_id>
+        <sys_created_on>2025-01-07 14:02:22</sys_created_on>
+        <sys_id>5fccc68cc3039210173c9e377d0131b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-06 20:50:48</sys_updated_on>
+        <sys_updated_on>2025-01-07 14:02:22</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

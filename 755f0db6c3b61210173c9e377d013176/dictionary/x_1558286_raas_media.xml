@@ -20,7 +20,7 @@
         <element display="true" label="Title" max_length="250" name="title" type="string"/>
         <element label="Language" max_length="250" name="language" type="string"/>
         <element label="Awards" max_length="1000" name="awards" type="string"/>
-        <element label="Website" max_length="40" name="website" type="url"/>
+        <element label="Website" max_length="1000" name="website" type="url"/>
         <element label="Genre" max_length="1024" name="genre" reference="x_1558286_raas_genre" type="glide_list"/>
     </element>
 </database>

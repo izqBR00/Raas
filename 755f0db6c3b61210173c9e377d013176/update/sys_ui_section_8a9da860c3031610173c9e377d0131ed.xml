@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="" section_id="d80256bac3ba1210173c9e377d013166" sys_domain="global" table="x_1558286_raas_review" version="3" view="">
+    <sys_ui_section caption="New section 1" section_id="8a9da860c3031610173c9e377d0131ed" sys_domain="global" table="x_1558286_raas_review" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>process_flow.xml</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-08 20:29:04</sys_created_on>
-            <sys_id>adee64e0c3031610173c9e377d01312a</sys_id>
+            <sys_created_on>2025-01-08 20:23:22</sys_created_on>
+            <sys_id>8a9da860c3031610173c9e377d0131ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Process Flow">14ace020c3031610173c9e377d0131a8</sys_ui_formatter>
-            <sys_ui_section caption="NULL" display_value="" name="x_1558286_raas_review" sys_domain="global" view="Default view">d80256bac3ba1210173c9e377d013166</sys_ui_section>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1558286_raas_review" sys_domain="global" view="Default view">8a9da860c3031610173c9e377d0131ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-08 20:29:04</sys_updated_on>
+            <sys_updated_on>2025-01-08 20:23:22</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-08 20:29:04</sys_created_on>
-            <sys_id>a9ee64e0c3031610173c9e377d01312b</sys_id>
+            <sys_created_on>2025-01-08 20:23:22</sys_created_on>
+            <sys_id>0e9da860c3031610173c9e377d0131f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1558286_raas_review" sys_domain="global" view="Default view">d80256bac3ba1210173c9e377d013166</sys_ui_section>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1558286_raas_review" sys_domain="global" view="Default view">8a9da860c3031610173c9e377d0131ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-08 20:29:04</sys_updated_on>
+            <sys_updated_on>2025-01-08 20:23:22</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>number</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-08 20:29:04</sys_created_on>
-            <sys_id>a1ee64e0c3031610173c9e377d01312c</sys_id>
+            <sys_created_on>2025-01-08 20:23:22</sys_created_on>
+            <sys_id>c69de860c3031610173c9e377d01312f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1558286_raas_review" sys_domain="global" view="Default view">d80256bac3ba1210173c9e377d013166</sys_ui_section>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1558286_raas_review" sys_domain="global" view="Default view">8a9da860c3031610173c9e377d0131ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-08 20:29:04</sys_updated_on>
+            <sys_updated_on>2025-01-08 20:23:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>media</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-08 20:29:04</sys_created_on>
-            <sys_id>a9ee64e0c3031610173c9e377d01312c</sys_id>
+            <sys_created_on>2025-01-08 20:23:22</sys_created_on>
+            <sys_id>ce9de860c3031610173c9e377d01312f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1558286_raas_review" sys_domain="global" view="Default view">d80256bac3ba1210173c9e377d013166</sys_ui_section>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1558286_raas_review" sys_domain="global" view="Default view">8a9da860c3031610173c9e377d0131ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-08 20:29:04</sys_updated_on>
+            <sys_updated_on>2025-01-08 20:23:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-08 20:29:04</sys_created_on>
-            <sys_id>a1ee64e0c3031610173c9e377d01312d</sys_id>
+            <sys_created_on>2025-01-08 20:23:22</sys_created_on>
+            <sys_id>c69de860c3031610173c9e377d013130</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1558286_raas_review" sys_domain="global" view="Default view">d80256bac3ba1210173c9e377d013166</sys_ui_section>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1558286_raas_review" sys_domain="global" view="Default view">8a9da860c3031610173c9e377d0131ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-08 20:29:04</sys_updated_on>
+            <sys_updated_on>2025-01-08 20:23:22</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>state</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-08 20:29:04</sys_created_on>
-            <sys_id>6dee64e0c3031610173c9e377d01316b</sys_id>
+            <sys_created_on>2025-01-08 20:23:22</sys_created_on>
+            <sys_id>ce9de860c3031610173c9e377d013130</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1558286_raas_review" sys_domain="global" view="Default view">d80256bac3ba1210173c9e377d013166</sys_ui_section>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1558286_raas_review" sys_domain="global" view="Default view">8a9da860c3031610173c9e377d0131ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-08 20:29:04</sys_updated_on>
+            <sys_updated_on>2025-01-08 20:23:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>rating</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-08 20:29:04</sys_created_on>
-            <sys_id>65ee64e0c3031610173c9e377d01316c</sys_id>
+            <sys_created_on>2025-01-08 20:23:22</sys_created_on>
+            <sys_id>c69de860c3031610173c9e377d013131</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1558286_raas_review" sys_domain="global" view="Default view">d80256bac3ba1210173c9e377d013166</sys_ui_section>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1558286_raas_review" sys_domain="global" view="Default view">8a9da860c3031610173c9e377d0131ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-08 20:29:04</sys_updated_on>
+            <sys_updated_on>2025-01-08 20:23:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>opened_by</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-08 20:29:04</sys_created_on>
-            <sys_id>6dee64e0c3031610173c9e377d01316c</sys_id>
+            <sys_created_on>2025-01-08 20:23:22</sys_created_on>
+            <sys_id>ce9de860c3031610173c9e377d013131</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1558286_raas_review" sys_domain="global" view="Default view">d80256bac3ba1210173c9e377d013166</sys_ui_section>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1558286_raas_review" sys_domain="global" view="Default view">8a9da860c3031610173c9e377d0131ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-08 20:29:04</sys_updated_on>
+            <sys_updated_on>2025-01-08 20:23:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>.end_split</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-08 20:29:04</sys_created_on>
-            <sys_id>65ee64e0c3031610173c9e377d01316d</sys_id>
+            <sys_created_on>2025-01-08 20:23:22</sys_created_on>
+            <sys_id>c69de860c3031610173c9e377d013132</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1558286_raas_review" sys_domain="global" view="Default view">d80256bac3ba1210173c9e377d013166</sys_ui_section>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1558286_raas_review" sys_domain="global" view="Default view">8a9da860c3031610173c9e377d0131ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-08 20:29:04</sys_updated_on>
+            <sys_updated_on>2025-01-08 20:23:22</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>description</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-08 20:29:04</sys_created_on>
-            <sys_id>6dee64e0c3031610173c9e377d01316d</sys_id>
+            <sys_created_on>2025-01-08 20:23:22</sys_created_on>
+            <sys_id>ce9de860c3031610173c9e377d013132</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1558286_raas_review" sys_domain="global" view="Default view">d80256bac3ba1210173c9e377d013166</sys_ui_section>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1558286_raas_review" sys_domain="global" view="Default view">8a9da860c3031610173c9e377d0131ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-08 20:29:04</sys_updated_on>
+            <sys_updated_on>2025-01-08 20:23:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,38 +144,38 @@
             <element>reproval_reason</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-08 20:29:04</sys_created_on>
-            <sys_id>65ee64e0c3031610173c9e377d01316e</sys_id>
+            <sys_created_on>2025-01-08 20:23:22</sys_created_on>
+            <sys_id>c69de860c3031610173c9e377d013133</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1558286_raas_review" sys_domain="global" view="Default view">d80256bac3ba1210173c9e377d013166</sys_ui_section>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1558286_raas_review" sys_domain="global" view="Default view">8a9da860c3031610173c9e377d0131ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-08 20:29:04</sys_updated_on>
+            <sys_updated_on>2025-01-08 20:23:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption/>
+            <caption>New section 1</caption>
             <header>false</header>
             <name>x_1558286_raas_review</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-03 17:12:42</sys_created_on>
+            <sys_created_on>2025-01-08 20:23:22</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d80256bac3ba1210173c9e377d013166</sys_id>
+            <sys_id>8a9da860c3031610173c9e377d0131ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1558286_raas_review</sys_name>
             <sys_overrides/>
             <sys_package display_value="Raas - Izaque" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package>
             <sys_policy/>
             <sys_scope display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</sys_scope>
-            <sys_update_name>sys_ui_section_d80256bac3ba1210173c9e377d013166</sys_update_name>
+            <sys_update_name>sys_ui_section_8a9da860c3031610173c9e377d0131ed</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-03 17:12:42</sys_updated_on>
+            <sys_updated_on>2025-01-08 20:23:22</sys_updated_on>
             <sys_user/>
-            <title>true</title>
+            <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_section>

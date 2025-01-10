@@ -4,31 +4,41 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>poster</field>
+        <field>integration_state</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Load Poster</name>
+        <name>Show Error Message</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-   g_form.getElement("poster_image").src = newValue;
+   if (newValue === '') {
+      return;
+   }
+
+   
+
+   if(newValue == "7" || newValue == "4") {
+		g_form.addErrorMessage(g_form.getValue("integration_error_message"));
+   } else {
+        g_form.clearMessages();
+    }
    
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-08 20:04:58</sys_created_on>
+        <sys_created_on>2025-01-10 18:18:44</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>e598e8e8c3cfd210173c9e377d013103</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>Load Poster</sys_name>
+        <sys_id>6093a60dc38f9610173c9e377d01316c</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Show Error Message</sys_name>
         <sys_overrides/>
         <sys_package display_value="Raas - Izaque" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package>
         <sys_policy/>
         <sys_scope display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</sys_scope>
-        <sys_update_name>sys_script_client_e598e8e8c3cfd210173c9e377d013103</sys_update_name>
+        <sys_update_name>sys_script_client_6093a60dc38f9610173c9e377d01316c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-10 19:24:07</sys_updated_on>
+        <sys_updated_on>2025-01-10 18:43:51</sys_updated_on>
         <table>x_1558286_raas_media</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

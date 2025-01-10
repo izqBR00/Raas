@@ -4,6 +4,7 @@
         <element default="0" label="IMDB Rating" max_length="40" name="imdb_rating" type="float"/>
         <element label="Category" max_length="40" name="category" type="string"/>
         <element default="0" label="Average Rating" max_length="255" name="average_rating" type="float"/>
+        <element label="Integration Error Message" max_length="1000" name="integration_error_message" type="string"/>
         <element default="0&#13;&#10;" label="Metascore" max_length="40" name="metascore" type="integer"/>
         <element label="Writers" max_length="4000" name="writers" type="string"/>
         <element label="Poster" max_length="1000" name="poster" type="url"/>
@@ -11,9 +12,9 @@
         <element label="Synopsis" max_length="4000" name="synopsis" type="string"/>
         <element choice="3" label="Type" max_length="40" name="type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Movie" sequence="1" value="m"/>
-                <element inactive_on_update="false" label="Series" sequence="2" value="s"/>
-                <element inactive_on_update="false" label="Episode" sequence="0" value="e"/>
+                <element inactive_on_update="false" label="Movie" sequence="1" value="movie"/>
+                <element inactive_on_update="false" label="Series" sequence="2" value="series"/>
+                <element inactive_on_update="false" label="Episode" sequence="0" value="episode"/>
             </choice>
         </element>
         <element label="Release Date" max_length="255" name="release_date" type="glide_date"/>
@@ -27,10 +28,11 @@
                 <element inactive_on_update="false" label="Integration Failure" sequence="300" value="4"/>
                 <element inactive_on_update="false" label="Integrating" sequence="200" value="2"/>
                 <element inactive_on_update="false" label="Integration Success" sequence="400" value="3"/>
+                <element inactive_on_update="false" label="Media not found" sequence="500" value="7"/>
             </choice>
         </element>
         <element label="Release Year" max_length="4" name="release_year" type="string"/>
-        <element choice="1" label="State" max_length="40" name="state" type="choice">
+        <element choice="1" default="1" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Draft" sequence="100" value="1"/>
                 <element inactive_on_update="false" label="Completed" sequence="200" value="3"/>

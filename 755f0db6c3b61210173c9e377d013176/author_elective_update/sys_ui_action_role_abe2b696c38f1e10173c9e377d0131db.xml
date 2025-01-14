@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="DELETE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 16:39:55</sys_created_on>
+        <sys_id>abe2b696c38f1e10173c9e377d0131db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1558286_raas.administrator</sys_name>
+        <sys_package display_value="Raas - Izaque" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</sys_scope>
+        <sys_ui_action display_value="">dee2725ac38f1e10173c9e377d013142</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_abe2b696c38f1e10173c9e377d0131db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 16:39:55</sys_updated_on>
+        <sys_user_role display_value="x_1558286_raas.administrator" name="x_1558286_raas.administrator">b55f0db6c3b61210173c9e377d013192</sys_user_role>
+    </sys_ui_action_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</application>
+        <file_path/>
+        <instance_id>2d826edcdb5eb91837d72a5913961950</instance_id>
+        <instance_name>dev199124</instance_name>
+        <name>sys_ui_action_role_abe2b696c38f1e10173c9e377d0131db</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role"><sys_ui_action_role action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-14 16:39:55</sys_created_on><sys_id>abe2b696c38f1e10173c9e377d0131db</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_1558286_raas.administrator</sys_name><sys_package display_value="Raas - Izaque" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package><sys_policy/><sys_scope display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</sys_scope><sys_ui_action display_value="">dee2725ac38f1e10173c9e377d013142</sys_ui_action><sys_update_name>sys_ui_action_role_abe2b696c38f1e10173c9e377d0131db</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-14 16:39:55</sys_updated_on><sys_user_role display_value="x_1558286_raas.administrator" name="x_1558286_raas.administrator">b55f0db6c3b61210173c9e377d013192</sys_user_role></sys_ui_action_role></record_update>]]></payload>
+        <payload_hash>-815445050</payload_hash>
+        <record_name>.x_1558286_raas.administrator</record_name>
+        <reverted_from/>
+        <source>b2cf8f72c3325210173c9e377d013140</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 16:39:55</sys_created_on>
+        <sys_id>dbf33e5ac38f1e10173c9e377d01315b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19465af9c210000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 16:39:55</sys_updated_on>
+        <type>UI Action Role</type>
+        <update_guid>dff33e5acd8f1e1054908df9a7729e5a</update_guid>
+        <update_guid_history>dff33e5acd8f1e1054908df9a7729e5a:-815445050</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 17:04:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action_role">sys_ui_action_role</sys_db_object>
+        <sys_id>2e5b8e00c05c4536987b7400e5e3d304</sys_id>
+        <sys_metadata>abe2b696c38f1e10173c9e377d0131db</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1558286_raas.administrator</sys_name>
+        <sys_package display_value="Raas - Izaque" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</sys_scope>
+        <sys_scope_delete display_value="">02c89d5cb92b445f801971616ee48e29</sys_scope_delete>
+        <sys_update_name>sys_ui_action_role_abe2b696c38f1e10173c9e377d0131db</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_role_abe2b696c38f1e10173c9e377d0131db">dbf33e5ac38f1e10173c9e377d01315b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 17:04:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

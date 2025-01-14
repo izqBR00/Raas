@@ -3,21 +3,21 @@
         <active>true</active>
         <angular_module/>
         <formatter>process_flow.xml</formatter>
-        <name>Review Process Flow</name>
+        <name>Media Process Flow</name>
         <seismic_component/>
         <sys_class_name>sys_ui_formatter</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-08 20:19:09</sys_created_on>
-        <sys_id>14ace020c3031610173c9e377d0131a8</sys_id>
+        <sys_created_on>2025-01-14 17:45:45</sys_created_on>
+        <sys_id>b303475ec3cf1e10173c9e377d01319f</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Review Process Flow</sys_name>
+        <sys_name>Media Process Flow</sys_name>
         <sys_package display_value="Raas - Izaque" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package>
         <sys_policy/>
         <sys_scope display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</sys_scope>
-        <sys_update_name>sys_ui_formatter_14ace020c3031610173c9e377d0131a8</sys_update_name>
+        <sys_update_name>sys_ui_formatter_b303475ec3cf1e10173c9e377d01319f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-14 17:47:38</sys_updated_on>
-        <table>x_1558286_raas_review</table>
+        <sys_updated_on>2025-01-14 17:47:29</sys_updated_on>
+        <table>x_1558286_raas_media</table>
         <type>formatter</type>
     </sys_ui_formatter>
 </record_update>

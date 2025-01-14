@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>average_rating</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 13:34:34</sys_created_on>
+        <sys_id>12898ad6c3cb1e10173c9e377d0131c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>average_rating</sys_name>
+        <sys_package display_value="Raas - Izaque" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</sys_scope>
+        <sys_update_name>sys_ui_policy_action_12898ad6c3cb1e10173c9e377d0131c8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 13:34:34</sys_updated_on>
+        <table>x_1558286_raas_media</table>
+        <ui_policy display_value="Media ReadOnly When Complete">1c474e16c3cb1e10173c9e377d0131ee</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=12898ad6c3cb1e10173c9e377d0131c8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</application>
+        <file_path/>
+        <instance_id>2d826edcdb5eb91837d72a5913961950</instance_id>
+        <instance_name>dev199124</instance_name>
+        <name>sys_ui_policy_action_12898ad6c3cb1e10173c9e377d0131c8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>average_rating</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-14 13:34:34</sys_created_on><sys_id>12898ad6c3cb1e10173c9e377d0131c8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>average_rating</sys_name><sys_package display_value="Raas - Izaque" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package><sys_policy/><sys_scope display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</sys_scope><sys_update_name>sys_ui_policy_action_12898ad6c3cb1e10173c9e377d0131c8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-14 13:34:34</sys_updated_on><table>x_1558286_raas_media</table><ui_policy display_value="Media ReadOnly When Complete">1c474e16c3cb1e10173c9e377d0131ee</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=12898ad6c3cb1e10173c9e377d0131c8"/></record_update>]]></payload>
+        <payload_hash>1246985955</payload_hash>
+        <record_name>average_rating</record_name>
+        <reverted_from/>
+        <source>b2cf8f72c3325210173c9e377d013140</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 13:34:34</sys_created_on>
+        <sys_id>9c9902d6c3cb1e10173c9e377d01316a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1946505ebe80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 13:34:34</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>909902d669cb1e104c7f29090e70a46a</update_guid>
+        <update_guid_history>909902d669cb1e104c7f29090e70a46a:1246985955</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 16:34:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>0b82d162703240bca1f3264167375cc4</sys_id>
+        <sys_metadata>12898ad6c3cb1e10173c9e377d0131c8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>average_rating</sys_name>
+        <sys_package display_value="Raas - Izaque" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package>
+        <sys_parent display_value="Media ReadOnly When Complete">1c474e16c3cb1e10173c9e377d0131ee</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</sys_scope>
+        <sys_scope_delete display_value="">02c89d5cb92b445f801971616ee48e29</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_12898ad6c3cb1e10173c9e377d0131c8</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_12898ad6c3cb1e10173c9e377d0131c8">9c9902d6c3cb1e10173c9e377d01316a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 16:34:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

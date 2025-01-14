@@ -14,7 +14,7 @@
             <choice>
                 <element inactive_on_update="false" label="Movie" sequence="1" value="movie"/>
                 <element inactive_on_update="false" label="Series" sequence="2" value="series"/>
-                <element inactive_on_update="false" label="Episode" sequence="0" value="episode"/>
+                <element inactive="true" inactive_on_update="true" label="Episode" sequence="0" value="episode"/>
             </choice>
         </element>
         <element label="Release Date" max_length="255" name="release_date" type="glide_date"/>

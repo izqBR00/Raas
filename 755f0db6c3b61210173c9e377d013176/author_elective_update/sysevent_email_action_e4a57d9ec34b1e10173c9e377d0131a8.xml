@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_1558286_raas_suggestion</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from>raas@aoop.com.br</from>
+        <generation_type>triggered</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hello ${opened_by.first_name}</p>
+<p>Thank you for your review for the ${type} ${title}.</p>
+<p>It is <strong>approved.</strong></p>
+<p>If you want to send more suggestions, click&nbsp;<a href="https://dev199124.service-now.com/sp?id=sc_cat_item&amp;sys_id=8598de4ac34bda10173c9e377d01311e&amp;sysparm_category=21a27933c33e1210173c9e377d013120">here</a></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Suggestion Approved</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>opened_by</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to>raas@aoop.com.br</reply_to>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${number}  - ${suggestion.title} - Suggestion Approved</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 12:07:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e4a57d9ec34b1e10173c9e377d0131a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Suggestion Approved</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Raas - Izaque" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</sys_scope>
+        <sys_update_name>sysevent_email_action_e4a57d9ec34b1e10173c9e377d0131a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 12:07:29</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</application>
+        <file_path/>
+        <instance_id>2d826edcdb5eb91837d72a5913961950</instance_id>
+        <instance_name>dev199124</instance_name>
+        <name>sysevent_email_action_e4a57d9ec34b1e10173c9e377d0131a8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;x_1558286_raas_suggestion&lt;/collection&gt;&lt;condition/&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;enable_dynamic_translation&gt;false&lt;/enable_dynamic_translation&gt;&lt;event_name&gt;activate.life.cycle.migration&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from&gt;raas@aoop.com.br&lt;/from&gt;&lt;generation_type&gt;triggered&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;Hello ${opened_by.first_name}&lt;/p&gt;
+&lt;p&gt;Thank you for your review for the ${type} ${title}.&lt;/p&gt;
+&lt;p&gt;It is &lt;strong&gt;approved.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you want to send more suggestions, click&amp;nbsp;&lt;a href="https://dev199124.service-now.com/sp?id=sc_cat_item&amp;amp;sys_id=8598de4ac34bda10173c9e377d01311e&amp;amp;sysparm_category=21a27933c33e1210173c9e377d013120"&gt;here&lt;/a&gt;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;Suggestion Approved&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;opened_by&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to&gt;raas@aoop.com.br&lt;/reply_to&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;${number}  - ${suggestion.title} - Suggestion Approved&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-14 12:07:29&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e4a57d9ec34b1e10173c9e377d0131a8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Suggestion Approved&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Raas - Izaque" source="x_1558286_raas"&gt;755f0db6c3b61210173c9e377d013176&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Raas - Izaque"&gt;755f0db6c3b61210173c9e377d013176&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_e4a57d9ec34b1e10173c9e377d0131a8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-14 12:07:29&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Unsubscribe and Preferences"&gt;7ed0481f3b0b2200c869c2c703efc487&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-94387645</payload_hash>
+        <record_name>Suggestion Approved</record_name>
+        <reverted_from/>
+        <source>b2cf8f72c3325210173c9e377d013140</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 12:07:29</sys_created_on>
+        <sys_id>aca57d9ec34b1e10173c9e377d0131ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19464b6311a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 12:07:29</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>a0a57d9ecc4b1e10a6d65e29bd4414ad</update_guid>
+        <update_guid_history>a0a57d9ecc4b1e10a6d65e29bd4414ad:-94387645</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 12:08:03</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>2379d629dd7743838b85e2ae70a896a1</sys_id>
+        <sys_metadata>e4a57d9ec34b1e10173c9e377d0131a8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Suggestion Approved</sys_name>
+        <sys_package display_value="Raas - Izaque" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package>
+        <sys_parent display_value="Suggestion">a239ae36c37e1210173c9e377d0131be</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</sys_scope>
+        <sys_scope_delete display_value="">02c89d5cb92b445f801971616ee48e29</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_e4a57d9ec34b1e10173c9e377d0131a8</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_e4a57d9ec34b1e10173c9e377d0131a8">aca57d9ec34b1e10173c9e377d0131ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 12:08:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

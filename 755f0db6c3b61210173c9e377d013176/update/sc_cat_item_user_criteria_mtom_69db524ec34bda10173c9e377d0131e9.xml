@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Media Suggestion">8598de4ac34bda10173c9e377d01311e</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 20:15:55</sys_created_on>
+        <sys_id>69db524ec34bda10173c9e377d0131e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Media Suggestion.RaaS - Users</sys_name>
+        <sys_package display_value="Raas - Izaque" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_69db524ec34bda10173c9e377d0131e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 20:15:55</sys_updated_on>
+        <user_criteria display_value="RaaS - Users">cd573240c3079210173c9e377d013195</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

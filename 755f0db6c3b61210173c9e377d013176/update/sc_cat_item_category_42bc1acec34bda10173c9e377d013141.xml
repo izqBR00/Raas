@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Media Suggestion">8598de4ac34bda10173c9e377d01311e</sc_cat_item>
+        <sc_category display_value="RaaS">21a27933c33e1210173c9e377d013120</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 20:19:46</sys_created_on>
+        <sys_id>42bc1acec34bda10173c9e377d013141</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RaaS.Media Suggestion</sys_name>
+        <sys_package display_value="Raas - Izaque" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</sys_scope>
+        <sys_update_name>sc_cat_item_category_42bc1acec34bda10173c9e377d013141</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 20:19:46</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

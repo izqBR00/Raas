@@ -35,6 +35,7 @@
         <element choice="1" default="1" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Draft" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Duplicate" sequence="50" value="7"/>
                 <element inactive_on_update="false" label="Completed" sequence="200" value="3"/>
             </choice>
         </element>

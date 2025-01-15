@@ -3,11 +3,11 @@
         <columns_condition/>
         <disable_nlq>false</disable_nlq>
         <edit_condition><![CDATA[if(!gs.hasRole("admin")){
-	if (parent.state.toString() == '3' || parent.integration_state.toString() == '7' || parent.integration_state.toString() == '4') {
-    answer = true;
-} else {
+	if (parent.state.toString() == '3' || parent.integration_state.toString() == '7' || parent.integration_state.toString() == '4' || parent.state.toString() == '7') {
+    	answer = true;
+	} else {
     answer = false;
-}
+	}
 }]]></edit_condition>
         <edit_default_filter/>
         <edit_roles/>
@@ -23,11 +23,11 @@
         <list_edit_type/>
         <name>x_1558286_raas_media</name>
         <new_condition><![CDATA[if(!gs.hasRole("admin")){
-	if (parent.state.toString() == '3' || parent.integration_state.toString() == '7' || parent.integration_state.toString() == '4') {
-    answer = true;
-} else {
-    answer = false;
-}
+	if (parent.state.toString() == '3' || parent.integration_state.toString() == '7' || parent.integration_state.toString() == '4' || parent.state.toString() == '7') {
+    	answer = true;
+	} else {
+    	answer = false;
+	}
 }]]></new_condition>
         <new_roles/>
         <omit_columns_if_empty>false</omit_columns_if_empty>
@@ -47,7 +47,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>05925b6ac3879e10173c9e377d01318a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>x_1558286_raas_media</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="Raas - Izaque" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package>
@@ -55,7 +55,7 @@
         <sys_scope display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</sys_scope>
         <sys_update_name>sys_ui_list_control_05925b6ac3879e10173c9e377d01318a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-15 14:33:18</sys_updated_on>
+        <sys_updated_on>2025-01-15 18:29:18</sys_updated_on>
     </sys_ui_list_control>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>05925b6ac3879e10173c9e377d01318a</id>

@@ -2,37 +2,28 @@
     <sys_security_acl action="INSERT_OR_UPDATE">
         <active>true</active>
         <admin_overrides>true</admin_overrides>
-        <advanced>true</advanced>
+        <advanced>false</advanced>
         <applies_to/>
         <condition/>
         <decision_type>allow</decision_type>
-        <description>Allow write for records in x_1558286_raas_m2m_actor_media, for users with role x_1558286_raas.administrator, and if the ACL script returns true.</description>
+        <description>Allow write for records in x_1558286_raas_m2m_actor_media, for users with role x_1558286_raas.administrator.</description>
         <local_or_existing>Local</local_or_existing>
         <name>x_1558286_raas_m2m_actor_media</name>
         <operation display_value="write">write</operation>
-        <script><![CDATA[var media = new GlideRecord('x_1558286_raas_media');
-if(media.get(current.x_1558286_raas_media)){
-	if(media.getValue("state").toString() == '3'){
-		answer = false;
-	} else {
-		answer = true;
-	}
-} else {
-	answer = true;
-}]]></script>
+        <script/>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-14 17:05:43</sys_created_on>
         <sys_id>dea8f2dec38f1e10173c9e377d0131e4</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>x_1558286_raas_m2m_actor_media</sys_name>
         <sys_package display_value="Raas - Izaque" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package>
         <sys_policy/>
         <sys_scope display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</sys_scope>
         <sys_update_name>sys_security_acl_dea8f2dec38f1e10173c9e377d0131e4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-15 13:10:15</sys_updated_on>
+        <sys_updated_on>2025-01-15 13:31:17</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
     <sys_es_latest_script action="INSERT_OR_UPDATE">

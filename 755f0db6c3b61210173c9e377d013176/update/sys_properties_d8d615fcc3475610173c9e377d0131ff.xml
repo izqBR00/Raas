@@ -11,14 +11,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-09 18:08:21</sys_created_on>
         <sys_id>d8d615fcc3475610173c9e377d0131ff</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>x_1558286_raas.integration_endpoint</sys_name>
         <sys_package display_value="Raas - Izaque" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package>
         <sys_policy/>
         <sys_scope display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</sys_scope>
         <sys_update_name>sys_properties_d8d615fcc3475610173c9e377d0131ff</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-14 14:00:20</sys_updated_on>
+        <sys_updated_on>2025-01-16 18:08:41</sys_updated_on>
         <type>string</type>
         <value>http://www.omdbapi.com/</value>
         <write_roles/>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1558286_raas.RaaSUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>RaaSUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var RaaSUtils = Class.create();
+RaaSUtils.prototype = {
+    initialize: function() {
+    },
+    refQualMedia: function() {
+        var moviesNotToBeShown = [];
+ 
+        var grReview = new GlideRecord("x_1558286_raas_review");
+        grReview.addEncodedQuery("opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state!=4");
+        grReview.query();
+        while(grReview.next()) {
+            moviesNotToBeShown.push(grReview.media.sys_id.toString());
+        }
+ 
+        var moviesToBeShown = [];
+        var grMedias = new GlideRecord("x_1558286_raas_media");
+        grMedias.addQuery("state", "3");
+        grMedias.query();
+        while(grMedias.next()) {
+            if(moviesNotToBeShown.indexOf(grMedias.getUniqueValue()) == -1) {
+                moviesToBeShown.push(grMedias.getUniqueValue());
+            }
+        }
+ 
+        return "sys_idIN" + moviesToBeShown.join(",");
+    },
+    type: 'RaaSUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-16 18:56:25</sys_created_on>
+        <sys_id>d42fd107c3071250173c9e377d0131a0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>RaaSUtils</sys_name>
+        <sys_package display_value="Raas - Izaque" source="x_1558286_raas">755f0db6c3b61210173c9e377d013176</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Raas - Izaque">755f0db6c3b61210173c9e377d013176</sys_scope>
+        <sys_update_name>sys_script_include_d42fd107c3071250173c9e377d0131a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-16 20:18:38</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>d42fd107c3071250173c9e377d0131a0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-16 18:56:25</sys_created_on>
+        <sys_id>5e66a58bc3071250173c9e377d01315e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-16 18:56:25</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
